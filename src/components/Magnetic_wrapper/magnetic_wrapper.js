@@ -43,7 +43,6 @@ export default function MagneticWrapper({children}) {
             ref={divRef}
             style={{
 
-                padding: '2rem',
                 width: 'fit-content',
                 display: 'flex',
                 position:'relative',
