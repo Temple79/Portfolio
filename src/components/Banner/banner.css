@@ -1,0 +1,21 @@
+.banner {
+    padding-top: 170px;
+    padding-bottom: 80px;
+    background-color: #aee7b9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+img {
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+}
+

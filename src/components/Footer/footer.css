@@ -1,0 +1,27 @@
+footer {
+    position: relative;
+    background-color: #498654;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_links {
+   margin-top: 20px; 
+}
+
+.github, 
+.linkedIn {
+    border-radius: 50%;
+    border: solid 1px white;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    font-family: cursive;
+}
