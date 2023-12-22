@@ -11,6 +11,11 @@
     text-shadow: 3px 3px 9px;
 }
 
+#intro {
+    position: absolute;
+    top: -90px;
+}
+
 a:hover {
     font-weight: bold;
 }
@@ -20,6 +25,8 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding: 0 70px 30px 70px;
+    position: relative;
+
 }
 
 .about_presentation {
@@ -28,4 +35,16 @@ a:hover {
 
 .cv_wrapper {
     margin: 20px;
+}
+
+
+@media (max-width: 550px) {
+    .cv {
+        display: block;
+        text-align: center;
+    }
+    #intro {
+        top: -130px;
+    }
+
 }

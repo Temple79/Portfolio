@@ -1,7 +1,7 @@
 import Header from './components/Header/header.js';
 import Banner from './components/Banner/banner.js'
 import About from './components/About/about.js';
-// import Projects from './components/Projects/projects.js';
+import Projects from './components/Projects/projects.js';
 import Contact from './components/Contact/contact.js';
 import Footer from './components/Footer/footer.js';
 
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Banner />
       <About />
-      {/* <Projects /> */}
+      <Projects />
       <Contact />
       <Footer />
     </>

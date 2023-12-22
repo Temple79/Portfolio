@@ -4,7 +4,8 @@ import CVDownload from "../CV/cv";
 export default function About() {
   return (
     <div className="about">
-      <h2 id="intro">À propos</h2>
+      <div id="intro"></div>
+      <h2>À propos</h2>
       <div className="about_presentation">
         <p>
           Après avoir obtenu mon M1 en Tourisme et mon M2 en Affaires et
