@@ -21,11 +21,9 @@ export default function Dropdown({ data }) {
             alt="arrow"
             className="dropdown-arrow"
           />
-          <div className="background">
-            <img src={data.screen} alt="background"></img>
-          </div>
+
         </div>
-        {isOpen && (
+        {isOpen ? (
           <div className="dropdown-text">
             <p>
               <span className="color-change">Projet</span> : {data.task}
@@ -53,7 +51,11 @@ export default function Dropdown({ data }) {
               .
             </p>
           </div>
-        )}
+        ) : (<div>
+        <img src={data.screen} alt="background"></img>
+      </div>)
+      
+      }
       </div>
     </>
   );
