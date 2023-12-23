@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ArrowUp from "../../assets/Icons/arrow_up.png";
 import ArrowDown from "../../assets/Icons/arrow_down.png";
 
+
 export default function Dropdown({ data }) {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -21,13 +22,13 @@ export default function Dropdown({ data }) {
             className="dropdown-arrow"
           />
           <div className="background">
-            <img src={data.background} alt="background"></img>
+            <img src={data.screen} alt="background"></img>
           </div>
         </div>
         {isOpen && (
           <div className="dropdown-text">
             <p>
-              <span className="color-change">Projet</span> : {data.tasks}
+              <span className="color-change">Projet</span> : {data.task}
             </p>
             <p>
               <span className="color-change">Challenges</span> :{" "}
@@ -35,9 +36,9 @@ export default function Dropdown({ data }) {
             </p>
             <ul className="techs">
               <span className="color-change">Langues utilisées</span> :{" "}
-              {data.techs.map((tech, index) => (
+              {data.lang.map((lang, index) => (
                 <li className="tech" key={index}>
-                  {tech}
+                  {lang}
                 </li>
               ))}
             </ul>
