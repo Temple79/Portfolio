@@ -2,3 +2,15 @@
     text-align: center;
     margin-top: 50px;
 }
+
+#projects {
+    position: absolute;
+    top: 750px;
+}
+
+@media (max-width: 550px) {
+    #projects {
+        top: 1500px;
+    }
+
+}

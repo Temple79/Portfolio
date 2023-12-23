@@ -7,7 +7,7 @@ const data = [
         "Réaliser le front-end de Booki - site de locations." ,
       lang: ["HTML", "CSS"],
       website: "mon site",
-      // link: ,
+      link: "https://github.com/Temple79/Project-2-OC",
       issues:
         "Aucune difficulté rencontrée",
     },
@@ -19,7 +19,7 @@ const data = [
     "Création de formulaire de connexion/déconnexion, création de module dynamique (ajout, modification et spression de projets), etc.",
       lang: ["HTML", "CSS", "Javascript"],
       website: "mon code",
-      // link:,
+      link: "https://github.com/Temple79/Project-3-Code",
       issues:
       "Première rencontre avec JavaScript - prise en main et algorithmes.",
     },
@@ -28,10 +28,10 @@ const data = [
       title: "Front-end du site Kasa",
       // screen:,
       task:
-"Créez le front d'une application web de location immobilière uniquement avec React. ",
-      lang: ["React", "HTML", "CSS"],
+        "Créez le front d'une application web de location immobilière uniquement avec React. ",
+      lang: ["React", "SASS"],
       website: "mon code",
-      // link: ,
+      link: "https://github.com/Temple79/Projet-6-OC",
       issues:
         "Logique des props et routes.",
     },
@@ -43,7 +43,7 @@ const data = [
         "Réaliser le back-end d'un site de notations de livres à l'aide de Node.js.",
       lang: ["Node.js", "MongoDB"],
       website: "mon code",
-      // link: ,
+      link: "https://github.com/Temple79/Projet-7-OC",
       issues:
         "Rendre le back-end (server et base de données) comme on coffre-fort",
     },
