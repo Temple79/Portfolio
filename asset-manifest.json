@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f98fedef.css",
-    "main.js": "/Portfolio/static/js/main.cbca072d.js",
+    "main.css": "/Portfolio/static/css/main.24b789af.css",
+    "main.js": "/Portfolio/static/js/main.08fd633f.js",
     "static/media/Petar Topchiyski.webp": "/Portfolio/static/media/Petar Topchiyski.014f46114ee35c41e7fe.webp",
     "static/media/CV_Petar_Topchiyski.pdf": "/Portfolio/static/media/CV_Petar_Topchiyski.7bf38096d46bf9ed8d54.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.f98fedef.css.map": "/Portfolio/static/css/main.f98fedef.css.map",
-    "main.cbca072d.js.map": "/Portfolio/static/js/main.cbca072d.js.map"
+    "main.24b789af.css.map": "/Portfolio/static/css/main.24b789af.css.map",
+    "main.08fd633f.js.map": "/Portfolio/static/js/main.08fd633f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f98fedef.css",
-    "static/js/main.cbca072d.js"
+    "static/css/main.24b789af.css",
+    "static/js/main.08fd633f.js"
   ]
 }
