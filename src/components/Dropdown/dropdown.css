@@ -43,9 +43,7 @@
 
 .lang {
     color: black;
-    padding: 1% 1.5%;
     border: none;
-    border-radius: 50px;
     margin: 0.7em 0.27em;
 }
 
@@ -61,6 +59,11 @@
 
 .color-change {
     color: #498654;
+}
+
+.color-change-lang {
+    color: #498654;
+    margin-left: -40px;
 }
 
 a,
