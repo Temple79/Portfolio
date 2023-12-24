@@ -35,7 +35,7 @@ export default function Dropdown({ data }) {
             <ul className="techs">
               <span className="color-change">Langues utilisées</span> :{" "}
               {data.lang.map((lang, index) => (
-                <li className="tech" key={index}>
+                <li className="lang" key={index}>
                   {lang}
                 </li>
               ))}
@@ -52,7 +52,7 @@ export default function Dropdown({ data }) {
             </p>
           </div>
         ) : (<div>
-        <img src={data.screen} alt="background"></img>
+        <img className="background" src={data.screen} alt="background"></img>
       </div>)
       
       }

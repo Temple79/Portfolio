@@ -1,6 +1,8 @@
 .banner {
     padding-top: 170px;
     padding-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #aee7b9;
     display: flex;
     align-items: center;

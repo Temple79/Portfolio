@@ -22,7 +22,7 @@ const data = [
       "Première rencontre avec JavaScript - prise en main et algorithmes.",
   },
   {
-    id: "3",
+    id: "3",  
     title: "Front-end du site Kasa",
     screen: "/Images/Kasa.png",
     task: "Créez le front-end d'une application web de location immobilière, uniquement avec React. ",
