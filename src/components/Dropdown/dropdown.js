@@ -33,7 +33,7 @@ export default function Dropdown({ data }) {
               {data.issues}
             </p>
             <ul className="techs">
-              <span className="color-change-lang">Langues utilisées</span> :{" "}
+              <span className="color-change-lang">Technologies utilisées</span> :{" "}
               {data.lang.map((lang, index) => (
                 <li className="lang" key={index}>
                   {lang}
