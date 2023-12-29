@@ -52,7 +52,7 @@ export default function Dropdown({ data }) {
             </p>
           </div>
         ) : (<div>
-        <img className="background" src={data.screen} alt="background"></img>
+        <img className="background" src={data.screen} alt="background" />
       </div>)
       
       }
